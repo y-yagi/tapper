@@ -1,5 +1,8 @@
 # Tapper
 
+[![Build Status](https://travis-ci.org/y-yagi/tapper.svg?branch=master)](https://travis-ci.org/y-yagi/tapper)
+[![Gem Version](https://badge.fury.io/rb/tapper.svg)](http://badge.fury.io/rb/tapper)
+
 `Tapper` taps the invocation of the public method. This means that all methods can be used with chain.
 
 
