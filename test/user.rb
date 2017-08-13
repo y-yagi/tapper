@@ -1,5 +1,5 @@
 class User
-  attr_accessor :name, :administrator
+  attr_accessor :name, :gender
 
   include Tapper
 
@@ -7,8 +7,8 @@ class User
     self.name = "taro"
   end
 
-  def admin
-    self.administrator = true
+  def man
+    self.gender = :man
   end
 
   private

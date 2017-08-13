@@ -3,11 +3,11 @@ require "user"
 
 class TapperTest < Minitest::Test
   def test_tapper
-    user = User.new.taro.admin
+    user = User.new.taro.man
 
     assert_instance_of User, user
     assert_equal "taro", user.name
-    assert user.administrator
+    assert_equal :man, user.gender
   end
 
   def test_do_not_tap_private_method
