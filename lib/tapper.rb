@@ -7,7 +7,7 @@ module Tapper
 
   module ClassMethods
     def method_added(name)
-      return if private_method_defined?(name) || /_tap/.match?(name.to_s) || method_defined?("#{name}_without_tap")
+      return if private_method_defined?(name) || /_tap/.match(name.to_s) || method_defined?("#{name}_without_tap")
 
       method = <<-EOS
         def #{name}_tap
