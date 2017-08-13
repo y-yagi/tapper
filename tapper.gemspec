@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Yuji Yaginuma"]
   spec.email         = ["yuuji.yaginuma@gmail.com"]
 
-  spec.summary       = %q{Write a short summary, because Rubygems requires one.}
+  spec.summary       = %q{Tap all methods.}
   spec.homepage      = "https://github.com/y-yagi/tapper"
   spec.license       = "MIT"
 
